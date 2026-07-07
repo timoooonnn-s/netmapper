@@ -1,0 +1,14 @@
+Interface eth0
+        state on
+        mac-addr 00:1c:7f:aa:bb:01
+        type ethernet
+        link-state link up
+        mtu 1500
+        ipv4-address 10.99.1.2/24
+Interface eth1
+        state on
+        mac-addr 00:1c:7f:aa:bb:02
+        type ethernet
+        link-state link down
+        mtu 1500
+        ipv4-address 172.16.5.1/24

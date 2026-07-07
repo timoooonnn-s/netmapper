@@ -1,0 +1,5 @@
+Hostname: dist-jnp-1
+Model: ex4300-48t
+Junos: 21.4R3-S1.5
+JUNOS OS Kernel 64-bit  [20220720.7c2b319_builder_stable_11-204ab]
+JUNOS OS libs [20220720.7c2b319_builder_stable_11-204ab]

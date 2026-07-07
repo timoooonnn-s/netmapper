@@ -1,0 +1,7 @@
+Routing table for VRF=0
+Codes: K - kernel, C - connected, S - static, R - RIP, B - BGP
+       O - OSPF, IA - OSPF inter area
+
+S*      0.0.0.0/0 [10/0] via 203.0.113.1, wan1
+C       10.99.0.0/24 is directly connected, port1
+O       10.20.0.0/24 [110/2] via 10.99.0.1, port1, 00:12:33

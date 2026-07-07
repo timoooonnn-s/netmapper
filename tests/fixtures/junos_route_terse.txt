@@ -1,0 +1,7 @@
+inet.0: 12 destinations, 12 routes (12 active, 0 holddown, 0 hidden)
++ = Active Route, - = Last Active, * = Both
+
+A V Destination        P Prf   Metric 1   Metric 2  Next hop        AS path
+* ? 0.0.0.0/0          S   5                        >10.99.0.1
+* ? 10.20.0.0/24       O 150        2               >10.0.0.1
+* ? 10.99.0.0/30       D   0                        >ge-0/0/0.0

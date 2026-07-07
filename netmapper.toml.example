@@ -1,0 +1,38 @@
+# NetMapper configuration. Copy to netmapper.toml and adjust.
+# No passwords live in this file: they come from the env var named in
+# password_env, from NETMAPPER_PASSWORD, or from an interactive getpass prompt.
+
+[defaults]
+depth = 3            # max hops from the seed devices
+workers = 10         # concurrent device sessions
+max_devices = 200    # hard cap per discovery run
+arp_limit = 30       # max ARP-only neighbor candidates per device
+runs_dir = "runs"    # where snapshots are stored
+
+[profiles.lab]
+username = "admin"                       # omit -> NETMAPPER_USERNAME or prompt
+password_env = "NETMAPPER_LAB_PASSWORD"  # omit -> NETMAPPER_PASSWORD or getpass
+ssh_port = 22
+ssh_timeout = 15
+
+[profiles.lab.snmp]
+version = "v2c"                          # v2c | v3
+community_env = "NETMAPPER_LAB_COMMUNITY"
+
+[profiles.prod]
+username = "netmapper-ro"
+password_env = "NETMAPPER_PROD_PASSWORD"
+
+[profiles.prod.snmp]
+version = "v3"
+v3_user = "netmapper"
+v3_auth_proto = "sha"                    # sha | md5 | none
+v3_priv_proto = "aes128"                 # aes128 | des | none
+v3_auth_key_env = "NETMAPPER_SNMP_AUTH"
+v3_priv_key_env = "NETMAPPER_SNMP_PRIV"
+
+[seeds.core]
+ips = ["10.0.0.1", "10.0.0.2"]
+
+[seeds.dc2]
+ips = ["10.64.0.1"]

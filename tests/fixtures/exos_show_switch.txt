@@ -1,0 +1,17 @@
+SysName:          edge-exos-1
+SysLocation:      DC1
+SysContact:       noc@example.com
+System MAC:       00:04:96:97:E9:EE
+System Type:      X465-48T
+
+SysHealth check:  Enabled (Normal)
+Recovery Mode:    All
+System Watchdog:  Enabled
+
+Current Time:     Mon Jul  6 10:12:33 2026
+Boot Time:        Wed May 13 08:01:10 2026
+
+Image Selected:   primary
+Image Booted:     primary
+Primary ver:      31.7.1.4
+Secondary ver:    31.6.0.9

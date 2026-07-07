@@ -1,0 +1,5 @@
+Codes: C - Connected, S - Static, R - RIP, B - BGP, O - OSPF
+
+S         0.0.0.0/0           via 10.99.1.1, eth0, cost 0, age 12345
+C         10.99.1.0/24        is directly connected, eth0
+C         172.16.5.0/24       is directly connected, eth1

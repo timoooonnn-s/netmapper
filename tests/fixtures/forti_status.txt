@@ -1,0 +1,7 @@
+Version: FortiGate-100F v7.2.5,build1517,230301 (GA.F)
+Virus-DB: 91.00560(2023-03-01 01:52)
+Serial-Number: FG100F0000000001
+BIOS version: 05000012
+Hostname: edge-fw-1
+Operation Mode: NAT
+Current virtual domain: root

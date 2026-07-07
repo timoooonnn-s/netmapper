@@ -1,0 +1,13 @@
+General Info :
+
+        SysDescr     : VSP-8284XSQ (8.10.1.0) BoxType: VSP-8284XSQ
+        SysName      : core-vsp-1
+        SysUpTime    : 154 day(s), 03:20:11
+        SysContact   : noc@example.com
+        SysLocation  : DC1 / Row 4
+
+Chassis Info :
+
+        Chassis      : 8284XSQ
+        Serial#      : 14JP512E0009
+        H/W Revision : 02

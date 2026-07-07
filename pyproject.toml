@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "netmapper"
+version = "0.1.0"
+description = "Read-only network topology discovery, visualization and troubleshooting - Extreme VOSS/VSP first"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "netmiko>=4.3",
+    "networkx>=3.0",
+    "pysnmp>=6.2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+netmapper = "netmapper.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["netmapper*"]

@@ -1,0 +1,10 @@
+================================================================================
+                                Port Interface
+================================================================================
+PORT                             LINK  PORT           PHYSICAL          STATUS
+NUM     INDEX DESCRIPTION        TRAP  LOCK    MTU    ADDRESS           ADMIN  OPERATE
+--------------------------------------------------------------------------------
+1/1     192   40GbCR4            true  false   1950   b0:ad:aa:4c:74:01 up     up
+1/2     193   40GbCR4            true  false   1950   b0:ad:aa:4c:74:02 up     down
+1/3     194   10GbSR             true  false   1950   b0:ad:aa:4c:74:03 up     up
+2/1     256   1000BaseTX         true  false   1950   b0:ad:aa:4c:74:41 down   down

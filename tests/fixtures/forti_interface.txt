@@ -1,0 +1,6 @@
+== [ port1 ]
+name: port1   mode: static    ip: 10.99.0.2 255.255.255.0   status: up    netbios-forward: disable    type: physical
+== [ wan1 ]
+name: wan1   mode: static    ip: 203.0.113.2 255.255.255.252   status: up    netbios-forward: disable    type: physical
+== [ port2 ]
+name: port2   mode: static    ip: 0.0.0.0 0.0.0.0   status: down    netbios-forward: disable    type: physical

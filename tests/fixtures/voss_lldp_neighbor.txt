@@ -1,0 +1,24 @@
+================================================================================
+                                LLDP neighbor
+================================================================================
+Port: 1/1       Index                     : 1
+                Protocol                  : LLDP
+                ChassisId: MAC Address    b0:ad:aa:4c:74:00
+                PortId   : MAC Address    b0:ad:aa:4c:74:05
+                SysName                   : access-vsp-1
+                SysCap                    : rB / rB
+                PortDescr                 : Port 1/5
+                SysDescr                  : VSP-4850GTS (8.2.7.0)
+                Address                   : 10.20.0.11
+--------------------------------------------------------------------------------
+Port: 1/2       Index                     : 2
+                Protocol                  : LLDP
+                ChassisId: MAC Address    00:04:96:97:e9:ee
+                PortId   : ifName         1:3
+                SysName                   : edge-exos-1
+                SysCap                    : rB / rB
+                PortDescr                 : 1:3
+                SysDescr                  : ExtremeXOS (X465-48T) version 31.7.1.4
+--------------------------------------------------------------------------------
+
+Total Neighbors : 2
